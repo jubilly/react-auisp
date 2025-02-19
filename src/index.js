@@ -7,6 +7,7 @@ import './styles/reset.css';
 import './styles/design-system.css';
 import './styles/general.css';
 import App from './App';
+import Sidebar from './components/Sidebar/Sidebar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

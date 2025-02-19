@@ -1,8 +1,9 @@
-import Login from './Login';
-import Header from './Header';
-import Button from './Button';
-import Form from './Form';
-import Exams from './Exams';
-import Exam from './Exam';
-
-export { Login, Header, Button, Form, Exams, Exam };
+export { default as Login } from './Login';
+export { default as Header } from './Header';
+export { default as Button } from './Button';
+export { default as Form } from './Form';
+export { default as Exams } from './Exams';
+export { default as Exam } from './Exam';
+export { default as Menu } from './Menu';
+export { default as Logo } from './Logo';
+export { default as Config } from './Config';

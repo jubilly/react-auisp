@@ -37,6 +37,7 @@ function Login() {
         };
         if (typeof window !== 'undefined' && window.localStorage) {
             window.localStorage.setItem('login-user', JSON.stringify(user));
+            window.location.href = './exams';
         }
     };
 
